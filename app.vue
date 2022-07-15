@@ -33,4 +33,10 @@
 <script setup>
 import SelectList from './components/global/SelectList.vue'
 const { data } = await useAsyncData('companies', () => queryContent('/companies').find())
+useHead({
+  title: 'Software Company List in Dhaka, Bangladesh',
+  meta: [
+    { name: 'description', content: 'Software Company List in Dhaka, Bangladesh.' }
+  ],
+})
 </script>
