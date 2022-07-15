@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-full">
     <app-header />
-    <main>
+    <main class="pb-32">
       <div class="max-w-7xl mx-auto py-4 sm:px-6 lg:px-8">
         <div class="my-4">
           <div class="py-24 text-center rounded-md bg-green-500">
@@ -26,6 +26,7 @@
         </div>
       </div>
     </main>
+    <app-footer />
   </div>
 </template>
 
