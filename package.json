@@ -5,12 +5,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "release": "standard-version"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.0.1",
-    "@nuxtjs/tailwindcss": "^5.1.3",
-    "nuxt": "3.0.0-rc.4",
+    "@nuxt/content": "^2.2.2",
+    "@nuxtjs/tailwindcss": "^6.1.3",
+    "nuxt": "3.0.0",
     "standard-version": "^9.5.0"
   },
   "dependencies": {

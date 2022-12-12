@@ -1,42 +1,36 @@
-# Nuxt 3 Minimal Starter
+# 💻 Software Companies in Dhaka
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Discover software companies in dhaka, bangladesh based on category, technology & service type. 
 
-## Setup
+## 📇 Adding your own company
 
-Make sure to install the dependencies:
+Want to add your company? We'd love your contribution. Go ahead and follow these steps, and [reach out](https://facebook.com/devzakir) if you have any trouble with this!
 
-```bash
-# yarn
-yarn install
+1. 🍴Fork this repository.
 
-# npm
-npm install
+2. 📝 Add a new `.md` file in `sites` that is `{yourDomain}.md`.
 
-# pnpm
-pnpm install --shamefully-hoist
+    > For example: `andy-bell.design.md`.
+
+3. 🖋Fill out the details. Here's the template:
+
+```yaml
+---
+title: 'andy-bell.design'
+url: 'https://andy-bell.design'
+tags: ['web designer', 'writer']
+updatesFeed: 'https://andy-bell.design/feed/page/0/'
+nsfw: false
+rss: true
+---
 ```
 
-## Development Server
+4. 🖥 Create a pull request and after your site has been approved by an admin, it'll appear on [personalsit.es](https://personalsit.es)!
 
-Start the development server on http://localhost:3000
+## 📄 Contributions
 
-```bash
-npm run dev
-```
+Got an idea for an enhancement? Awesome — don't be shy about [creating an issue](https://github.com/xdesro/personalsit.es/issues/new), or even [opening a pull request](https://github.com/xdesro/personalsit.es/pulls), if you're feeling ambitious. I'd welcome the assist! 
 
-## Production
+## 🗣 Colophon
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+This project was originally created by the GOAT [Andy Bell](https://hankchizljaw.com/), and is lately maintained by Henry Desroches.
